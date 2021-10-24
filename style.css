@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5;
+}
+body {
+    background-image: url(./image/pexels-miriam-espacio-110854.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tarjeta_contorno {
+    margin-left:30rem ;
+    margin-top: 5rem;
+    border: 0.5rem solid black;
+    display: block;
+    position: flex;
+    width: 25rem;
+    height: 30rem;
+    background-size: cover;
+   border-radius: 00.5rem;
+    
+}
+.tarjeta_arriba {
+    background-image: url(./image/hipnosapo-min.jpg);
+    height: 10rem;
+    background-size: cover;
+    border-bottom: 0.4rem solid black;
+}
+.tarjeta_abajo {
+    background-color: rgb(172, 172, 172);
+    height: 19rem;
+    
+}
+.tarjeta_lista, .uno {
+    padding: 00.6rem;
+ font-family: monospace;
+ font-size: 1.2rem;
+ list-style: none;
+}
